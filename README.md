@@ -42,10 +42,10 @@ http://127.0.0.1:8000/api/RegisterNursery/
 Add a plant to Nursery by selecting from Plant database :
 http://127.0.0.1:8000/api/NurseryPlant/
 
-List All Plants User have :
+List All Plants User have this will show a plants with its unique id :
 http://127.0.0.1:8000/api/Users/<user_unique_id>
 
-A user used to view a plant from Nursery : having Nursery Unique id -
+A user used to view a plant from Nursery having Nursery Unique id, this will show a plants with its unique id-
 http://127.0.0.1:8000/api/Nursery/<nursery_unique_id>
 
 A user can place order :

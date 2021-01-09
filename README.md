@@ -14,6 +14,9 @@ pip install -r requirements.txt
 The database files in the project need to be migrated
 python manage.py makemigrations
 python manage.py migrate
+Before running server please make sure to make a superuser
+
+python manage.py createsuperuser 
 
 Running the server in local host
 
